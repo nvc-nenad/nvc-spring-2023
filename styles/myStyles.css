@@ -1,0 +1,25 @@
+.paragraph {
+  color: #DB8D33;
+  font-size: 21px;
+  line-height: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.block {
+  background-color: tomato;
+  font-size: 24px;
+  margin-top: 30px;
+  padding: 15px 20px 10px 5px;
+  color: #ffffff;
+  display: inline-block;
+}
+
+.inline {
+  display: inline-block;
+  font-size: medium;
+}
+
+h1 {
+  text-decoration: underline;
+}
