@@ -1,0 +1,19 @@
+@mixin primary-button($color) {
+  font-size: 20px;
+  background-color: $color;
+  color: white;
+  border-radius: 15px;
+  padding: 5px 10px;
+  border-style: none;
+  cursor: pointer;
+  &:hover {
+    background-color: lighten($color, 15%);
+  }
+}
+
+@mixin column() {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
